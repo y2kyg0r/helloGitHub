@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    background-image: url(gang.jpg);
+    background-repeat: no-repeat;
+    background-size: 215vh;
+}
+h1{
+    color: aliceblue;
+}
+button{
+    color: aliceblue;
+    background-color: black;
+}
+p{
+    color: white;
+}
