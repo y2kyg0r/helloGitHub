@@ -1,0 +1,62 @@
+body{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("gang.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.container{
+    justify-content: center;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+.register{
+    width: 45vw;
+    border-radius: 15px;
+    text-align: center;
+}
+.login{
+    width: 45vw;
+    border-radius: 15px;
+    text-align: center;
+}
+.edite{
+    width: 45vw;
+    border-radius: 15px;
+    text-align: center;
+}
+.remove{
+    width: 45vw;
+    border-radius: 15px;
+    text-align: center;
+}
+#adiciona{
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+}
+#logar{
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+}
+input{
+    width: 200px;
+    border-radius: 15px;
+}
+#delete{
+    width: 100px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+#Editar{
+    width: 100px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de login</h1>
+        <div class="register">
+            <h3>Cadastro de Usuário</h3>
+            <!-- <label for="username">Nome do Usuário</label> -->
+            <input type="text" id="username" placeholder="Nome do Usuário"><br>
+            <!-- <label for="senha"><br>Senha do Usuário</label> -->
+            <input type="password" id="senha" placeholder="Senha do Usuário"><br><br>
+            <button onclick="add()" id="adiciona">Cadastrar</button>
+
+        </div>
+        <div class="login">
+            <h3>Logar</h3>
+            <!-- <label for="user">Nome do Usuário</label> -->
+            <input type="text" id="user" placeholder="Nome do Usuário"><br>
+            <!-- <label for="pass"><br>Senha do Usuário</label> -->
+            <input type="password" id="pass" placeholder="Senha do Usuário"><br><br>
+            <button onclick="login()" id="logar">Entrar</button>
+
+        </div>
+        <div class="edite">
+            <h3>Editar</h3>
+            <!-- <label for="userEdit">Nome de Usuário</label> -->
+            <input type="text" id="userEdit" placeholder="Nome para Editar"><br><br>
+            <button onclick="edit()" id="Editar">Editar</button>
+        </div>
+        <div class="remove">
+            <h3>Remover</h3>
+            <!-- <label for="userDelete">Nome de Usuário</label> -->
+            <input type="text" id="userDelete" placeholder="Nome para Remover"><br><br>
+            <button onclick="remove()" id="delete">Remover</button>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
